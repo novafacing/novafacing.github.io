@@ -37,8 +37,6 @@ if (screen.width >= 768) {
       "pluginModelPath": "assets/",
       "tagMode": false,
       "debug": true,
-      "tagMode":false,
-      "debug":false,
       "model": {
         "scale":1,
         "hHeadPos":0.5,
@@ -61,7 +59,7 @@ if (screen.width >= 768) {
         "opacityDefault":0.3,
         "opacityOnHover":0.3,
         "opacity":0.95},
-      "log":false
+      "log":true
     });
   });
 }
