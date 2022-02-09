@@ -31,7 +31,7 @@ if (screen.width >= 768) {
 		loadExternalResource(live2d_path + "live2d.min.js", "js"),
 		// loadExternalResource(live2d_path + "waifu-tips.js", "js")
 	]).then(() => {
-    L2Dwidget.init({
+    Live2D.init({
       "pluginRootPath": "live2d-widget/",
       "pluginJsPath": "/",
       "pluginModelPath": "assets/",
