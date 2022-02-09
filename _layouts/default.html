@@ -52,31 +52,18 @@
     </div>
 
 
-    <script src="/assets/live2dw/lib/L2Dwidget.min.js"></script>
-    <script>
-        L2Dwidget.init({
-			pluginRootPath: "assets/live2dw/",
-			pluginJsPath: "lib/",
-			pluginModelPath: "assets/",
-			tagMode: !1,
-			debug: true,
-			model: {
-				scale: 1,
-				jsonPath: "/assets/live2dw/assets/asuna_33.model.json"
-			},
-			display: {
-				position: "left",//定位
-				width: 130,//宽度
-				height: 210,//高度
-				hOffset: -40,//左右
-				vOffset: 0//上下
-			},
-			mobile: {
-				show: false
-			},
-			log: true
-		});
+    <script type="text/javascript" charset="utf-8"  src="https://files.cnblogs.com/files/liuzhou1/L2Dwidget.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8"  src="https://files.cnblogs.com/files/liuzhou1/L2Dwidget.min.js"></script>
+    <script type="text/javascript">
+        L2Dwidget.init({"display": {
+            "superSample": 2,
+            "width": 200,
+            "height": 400,
+                 "position": "right",
+                     "hOffset": 0,
+            "vOffset": 0
+              }
+         });
     </script>
-    <div id="live2d-widget" class="live2d-widget-container" style="position: fixed; right: 0px; bottom: -20px; width: 150px; height: 300px; z-index: 99999; opacity: 1; pointer-events: none;"><canvas id="live2dcanvas" style="position: absolute; left: 0px; top: 0px; width: 150px; height: 300px;" width="300" height="600"></canvas></div>
   </body>
 </html>
