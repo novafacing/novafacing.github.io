@@ -4,8 +4,6 @@ title: Linux Security Options and Compiler Flags
 categories: [CTF]
 ---
 
-# Linux Security Options and Compiler Flags
-
 Here's a short overview of available security options on Linux and how to enable or disable them.
 
 To check security flags, I suggest using `checksec` which can be installed with `python3 -m pip install checksec.py` 
