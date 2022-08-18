@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A QUick Library Trick
+title: A Quick Library Trick
 categories: [CTF]
 ---
 
