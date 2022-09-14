@@ -4,8 +4,6 @@ title: Binary Golf Grand Prix 3 Submission (200k crashes in clang15.0.0)
 categories: [Research,Competition,Binaries,Triaging]
 ---
 
-# BGGP3: Crash Submission (clang15.0.0)
-
 This post plus the code mentioned in it is available [here](https://github.com/novafacing/bggp3).
 
 This is my submission for [BGGP3](https://tmpout.sh/bggp/3/)! I really wanted

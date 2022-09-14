@@ -4,9 +4,7 @@ title: MOLD and NVidia and Drivers...oh god...
 categories: [Linux, Debian]
 ---
 
-## NVidia Drivers
-
-This is the part where I'm half making a note to self. I recently reinstalled Debian on my desktop (I had
+I'm half making a note to self. I recently reinstalled Debian on my desktop (I had
 switched from Ubuntu 20.04 to Debian Sid on my laptop earlier this summer), but my laptop does not have a
 discrete GPU. My desktop does! All actually went well the first time I installed.
 
